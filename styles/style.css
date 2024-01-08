@@ -427,3 +427,53 @@ main>.offer img {
     right: 450px;
     cursor: pointer;
 }
+
+footer {
+    background-color: #070211;
+    padding: 50px 0;
+}
+
+footer .about {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10%;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+footer .about li {
+    list-style: none;
+}
+
+footer .about li >.fa-solid{
+    color:white;
+    padding-left: 10px;
+}
+
+footer .social-links {
+    text-align: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+footer .social-links img{
+    width: 3%;
+    margin-right: 20px;
+}
+
+footer .bottom-part {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10%;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer .bottom-part .unsubscribe{
+    cursor: pointer;
+}
